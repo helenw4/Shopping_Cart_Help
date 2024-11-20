@@ -1,0 +1,115 @@
+* {
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+h1:hover{
+    color: blue;
+}
+
+
+h2, h3 {
+    color: red; 
+    padding: 1px; 
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+p {
+    padding-bottom: 18px;
+}
+
+.products-container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px;
+}
+.cart-container {
+    display: flex;
+}
+.checkout-container {
+    padding: 30px;
+    margin-right: 40px; 
+    background: yellow;
+    border: 2px solid blue;
+    text-decoration: underline;
+    border-radius: 15px;
+    max-height: 500px;
+}
+.products, .cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products > div {
+    background: greenyellow;
+    margin: 15px;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.products > div img {
+    max-width: auto;
+    height: auto;
+}
+
+.products > div h3 {
+    font-weight: bolder;
+}
+
+.cart > div {
+    border: 2px solid rgb(191, 0, 255);
+    border-radius: 15px;
+    margin: 16px;
+    padding: 35px;
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+}
+
+.checkout-container {
+    max-width: 34em;
+}
+
+.checkout {
+    margin-bottom: 50px;
+}
+
+button {
+    border: 3px solid #120ade;
+    border-radius: 20px;
+    background: #ed7309;
+    padding: 16px;
+    text-transform: uppercase;
+    transition: .2s ease all;
+}
+
+button.pay {
+    background: #03e012;
+    vertical-align: middle
+}
+button:hover {
+    background: rgb(5, 238, 227);
+    color: #fff;
+  
+}
+
+.received {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle
+}
